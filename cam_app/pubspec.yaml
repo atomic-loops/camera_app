@@ -1,0 +1,28 @@
+name: cam_app
+description: A Flutter project which displays a welcome text on the start screen provided with a button. On clicking it, the camera turns on and user can click a picture and share it.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # !======Camera dependencies
+  cupertino_icons: ^0.1.2
+  camera: ^0.5.2+1
+  path_provider: ^1.1.0
+  path: ^1.6.2
+  esys_flutter_share: ^1.0.2
+# !=========================
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
